@@ -15,3 +15,7 @@ theme = "paper"
     name = "Posts"
     url = "/posts/"
     weight = 2
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
