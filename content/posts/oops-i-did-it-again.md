@@ -74,7 +74,7 @@ Oops, I did it again.
 In all seriousness though, this was just too cool to refuse. Maybe one day
 I'll turn my back on the city and do a random jigsaw puzzle, today is not that day. 
 
-[^1]: At the end of the day this site if just files on both
+[^1]: At the end of the day this site is just files on both
 [GitHub](https://github.com/GustavoNazarioPerez/nazario.sh) and my laptop so using
 something like [grep](https://en.wikipedia.org/wiki/Grep) does the trick.
 
