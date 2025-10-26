@@ -19,3 +19,12 @@ theme = "paper"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  color = 'wheat'
+  twitter = 'funnyguygus'
+  github = 'GustavoNazarioPerez'
+  instagram = 'funnyguygus'
+  linkedin = 'GustavoNazarioPerez'
+  monoDarkIcon = true
+  favicon = "favicon.ico"
