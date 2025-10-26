@@ -45,7 +45,7 @@ about the jigsaw puzzle I bought.
 Some years back I interned with friends that said they enjoyed drinking wine
 and doing a jigsaw puzzle. At the time I thought, "that doesn't seem too fun, wine
 is gross", but now it sounds delightful (apart from the whole wine thing). There
-is just *something* doing a puzzle with a candle going while all your friends are
+is just *something* about doing a puzzle with a candle going while all your friends are
 hanging out without you that just does it for me [^3]. 
 
 Well anyways, fast forward (flashback?) to about a year ago, I completed my first
