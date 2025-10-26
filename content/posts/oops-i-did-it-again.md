@@ -20,7 +20,7 @@ like to make it more unique
 - I thought of adding search functionality to have the ability to look back on
 previous posts but searching the files on my computer is easy enough [^1].
 - I'll probably get a little logo for the tab bar
-- I NEED to add contect info. How else will strangers be able to reach me?
+- I NEED to add contact info. How else will strangers be able to reach me?
 
 ---
 
@@ -34,7 +34,7 @@ enough? Does it have to be? Who cares?
 I have somewhat of an audience at this point (4 people?) so I want to think about
 them before just writing stuff but maybe that defeats the whole purpose of this.
 Enough meta-blogging, lets write about something interesting or at the very least
-entertaining [^2]
+entertaining [^2].
 
 Today I learned about how protobufs perform binary encoding, but anyone can just
 [read about that](https://protobuf.dev/programming-guides/encoding/) and I don't
@@ -83,6 +83,6 @@ footnotes were even meant to be used?
 
 [^3]: Anyone who doesn't know me has to think I'm over 70 right?
 
-[^4] The puzzles didn't necessarily scream NYC but most are magazine covers of 
+[^4]: The puzzles didn't necessarily scream NYC but most are magazine covers of 
 "[The New Yorker](https://en.wikipedia.org/wiki/The_New_Yorker)".
 
