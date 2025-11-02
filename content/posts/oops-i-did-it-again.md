@@ -1,6 +1,7 @@
 +++
 date = '2025-10-25T21:43:06-04:00'
 title = 'Oops I Did It Again'
+description = 'A story about a jigsaw puzzle'
 +++
 
 ### You've been warned

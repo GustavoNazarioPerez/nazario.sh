@@ -1,6 +1,7 @@
 +++
 date = '2025-10-25T00:24:21-04:00'
 title = 'Welcome?'
+description = 'My first post!'
 +++
 
 This is my first attempt at a personal website, and I hope it goes well. I was inspired

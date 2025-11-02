@@ -1,6 +1,7 @@
 +++
 date = "2025-10-27T20:38:43-04:00"
 title = "I've Been Inspired"
+description = 'Icons or Role Models? Both? Neither?'
 +++
 
 ### Updates
