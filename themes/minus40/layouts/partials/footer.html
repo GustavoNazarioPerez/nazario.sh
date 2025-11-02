@@ -1,0 +1,41 @@
+<div class="footer-content">
+  <p>&copy Copyright 2025 Gustavo Nazario</p>
+  <div class="footer-right">
+    <div class="social-icons">
+      <a href="https://instagram.com/funnyguygus" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://x.com/funnyguygus" target="_blank" aria-label="X">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/GustavoNazarioPerez" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/GustavoNazarioPerez" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    {{ if site.Params.buttondownUsername }}
+    <button class="subscribe-button" id="subscribe-btn">
+      Subscribe
+    </button>
+    {{ end }}
+  </div>
+</div>
+
+{{ if site.Params.buttondownUsername }}
+<!-- Subscribe Modal -->
+<div id="subscribe-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Subscribe to updates</h2>
+    <p>Get notified when I post something new</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/{{ site.Params.buttondownUsername }}" method="post" target="hidden-iframe" id="subscribe-form">
+      <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="subscribe-success" class="success-message" style="display: none;">Thanks for subscribing!</p>
+  </div>
+</div>
+<iframe name="hidden-iframe" style="display:none;"></iframe>
+{{ end }}

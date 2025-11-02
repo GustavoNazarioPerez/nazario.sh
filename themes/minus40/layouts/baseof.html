@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  {{ partial "head.html" . }}
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <div class="main-wrapper">
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  <footer>
+    <div class="footer-inner">
+      {{ partial "footer.html" . }}
+    </div>
+  </footer>
+</body>
+</html>
