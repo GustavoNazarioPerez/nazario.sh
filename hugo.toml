@@ -1,7 +1,7 @@
 baseURL = 'https://gustavonazarioperez.github.io/'
 languageCode = 'en-us'
 title = 'nazario.sh'
-theme = "paper"
+theme = "minus40"
 
 [menu]
   [[menu.main]]
@@ -21,10 +21,10 @@ theme = "paper"
     dir = ':cacheDir/images'
 
 [params]
-  color = 'wheat'
   twitter = 'funnyguygus'
   github = 'GustavoNazarioPerez'
   instagram = 'funnyguygus'
   linkedin = 'GustavoNazarioPerez'
   monoDarkIcon = true
   favicon = "favicon.ico"
+  buttondownUsername = "nazario"
