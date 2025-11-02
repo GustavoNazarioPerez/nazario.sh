@@ -2,3 +2,8 @@
 /public/
 todo.txt
 **/.DS_Store
+# Vim swap files
+*~
+*.swp
+*.swo
+*:w
