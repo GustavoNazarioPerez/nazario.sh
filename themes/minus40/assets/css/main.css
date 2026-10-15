@@ -4,7 +4,7 @@ html, body {
 body {
   background-color: #001A27;
   color: #F5FBFF;
-  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'JetBrains Mono', monospace;
+  font-family: 'Geist', sans-serif;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -383,7 +383,7 @@ footer {
   color: #F5FBFF;
   line-height: 1.75;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: inherit;
 }
 
 /* Links in post content */
@@ -398,14 +398,12 @@ footer {
   color: #E0F2FF !important;
 }
 
-/* Use a different font for headings */
 .post-content h1,
 .post-content h2,
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #B8D4E6;
   margin-top: 2rem;
