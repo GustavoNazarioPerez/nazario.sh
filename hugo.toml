@@ -1,6 +1,6 @@
 baseURL = 'https://gustavonazarioperez.github.io/'
 languageCode = 'en-us'
-title = 'nazario.sh'
+title = 'Gustavo Nazario'
 theme = "minus40"
 
 [menu]
@@ -15,6 +15,12 @@ theme = "minus40"
     name = "Posts"
     url = "/posts/"
     weight = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
 
 [caches]
   [caches.images]

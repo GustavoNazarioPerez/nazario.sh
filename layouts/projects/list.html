@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="work-page">
+  {{ range .Params.projects }}
+  <article class="project-card">
+    <h2 class="project-name">{{ .name }}</h2>
+    <p class="project-description">
+      {{ if .github }}<a class="project-repo-link" href="{{ .github }}" target="_blank" rel="noopener">GitHub</a> — {{ end }}
+      {{ if .gitlab }}<a class="project-repo-link" href="{{ .gitlab }}" target="_blank" rel="noopener">GitLab</a> — {{ end }}
+      {{ .description | markdownify }}
+    </p>
+    <ul class="project-tech">
+      {{ range .tech }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ if .snippet }}
+    <pre class="project-snippet"><code>{{ .snippet }}</code></pre>
+    {{ end }}
+    {{ if .video }}
+    <video class="project-video" src="{{ .video }}" autoplay loop muted playsinline></video>
+    {{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ end }}
